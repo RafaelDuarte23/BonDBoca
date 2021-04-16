@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTC-8">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <title>Contato-Bon D Boca</title>
+</head>
+
+<body>
+    <div class="caixa-teste">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobrenos.html">Sobre-Nós</a></li>
+                <li><a href="lanches.html">Lanches</a></li>
+            </ul>
+        </nav>
+    </div>    
+    <header class="contato">
+        <div class="caixa"></div>
+             <h1 class="texto">Contato</h1>
+            <img class="bannerimg" src="./banner/banner.png" alt="Logo Bon D Boca">
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome: *</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Nome Sobrenome">
+    
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone *</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="mensagem">Mensagem *</label>
+            <textarea cols="30" rows="10" id="mensagem" class="input-padrao" required></textarea>
+            <p class="campos">* Os campos são obrigatorios</p>
+            
+        <fieldset>
+            <legend>Como prefere o nosso contato ?</legend>
+
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+           
+
+            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+           
+
+            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+            
+         
+        </fieldset>
+        <fieldset>
+                    <legend> Qual horario prefere ser atendido ?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+        </fieldset>   
+        
+            <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por email ?</label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <tbody>    
+                <tr>
+                    <td>Segunda</td>
+                    <td>10h ás 23h</td>
+                </tr>
+                <tr>
+                    <td>Terça</td>
+                    <td>10h ás 23h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>10h ás 23h</td>
+                </tr>
+                <tr>
+                    <td>Quinta</td>
+                    <td>10h ás 23h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>10h ás 23h</td>
+                </tr>
+                <tr>
+                    <td>Sabado</td>
+                    <td>10h ás 23h</td>
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td>10h ás 23h</td>
+                </tr>
+            </tbody>    
+
+        </table>
+
+        <p>Entre em contato conosco via whatsapp</p>
+        <p>&#9990; (11) 4765-0971</p>
+</main>
+    <footer>
+        <img src="./banner/banner.png" alt="Logo Bon D Boca">
+        <p class="copyright"> &copy;  Copyright Hamburgueria Bon D Boca - 2020</p>
+    </footer>
+</body>

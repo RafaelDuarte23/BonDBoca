@@ -1,0 +1,201 @@
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #CCCCCC;
+
+
+    }
+    .caixa-teste ul{
+        display: inline-block;
+        border: black solid 2px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-top: 5%;
+        margin-left: 65%;
+        margin-bottom: 1%;
+        font-size: 22px;
+    }
+    .banner{
+        width: 25%;
+    }
+    .caixa-teste ul:hover{
+        border-color: #C15c19;
+        
+    }
+    .confira-cardapio{
+        padding-top: 0;
+        background: #CCCCCC;
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .confira-cardapio .texto{
+        
+    }
+    .caixa{
+        text-align: center;
+        padding: 2px;
+        position: relative;
+        margin: 0 auto;
+        display: inline-block;
+
+    }
+    .confira-cardapio h1{
+        vertical-align: top;
+    }
+    .texto{
+        vertical-align: top;
+        padding-bottom: 15px;
+        display: inline-block;    
+    }
+    .bannerimg{
+        width: 60%;
+        position: relative; 
+    }
+
+    .imagemlanches{
+        padding-top: 10px;
+        height: 100%;
+        width: auto;
+    }  
+    nav li{
+        display: inline;
+        margin: 5px 0 0 15px;
+    }
+    nav a {
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: bold;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    .produtos li:hover{
+        border-color: #C15c19;
+    }
+    .produtos li:active{
+        border-color: green;
+    }
+    .produtos li:hover .nome-lanche{
+        font-size: 25px;
+    }
+    .produtos{
+        width: 70%;
+        margin: 15px auto;
+        padding: 50px 0;
+        padding-left: 50px;
+        
+    }
+    .produtos li {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        padding-top: 40px;
+        box-sizing: border-box;
+        border-color: #000000;
+        border-width: 4px;
+        border-style: solid;
+        border-radius: 10px;
+    
+
+    } 
+    .descricao{
+        padding-top: 20px;
+        text-align: left;
+        font-weight: normal;
+        padding-left: 30px;
+        padding-right: 30px;
+    } 
+    .preco{
+        text-align: center;
+        padding-top: 20px;
+
+    }
+    .imagem-container{
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+    }
+    .lista-produtos{
+        height: 450px;
+        margin-bottom: 5px;
+        position: relative;
+    }
+    .lista-produtos .preco {
+        position: absolute;
+        bottom: 15px;
+        left: 35%;
+    }
+
+
+    footer{
+        margin: 40px 0;
+        text-align: center;
+    }
+    footer img{
+        text-align: center;
+            width: 100px;
+    }
+    .copyright{
+        text-align: center;
+        font-size: 10px;
+    }
+    main {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    form {
+        margin: 40px 0;
+    }
+
+    form label {
+        display:block;
+        font-size: 20px;
+        margin: 0 0 10px;
+    }
+
+    form input {
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 50%;
+    }
+
+@media screen and (max-width: 480px) {
+   
+    .texto, .imagemlanches, .produtos{
+        width: auto;
+    }
+    .texto{
+        font-size: 22px;
+        padding-top: 13px;
+        padding-left: 13px;
+    }
+    .caixa-teste{
+        margin: auto;
+        text-align: center;
+        display: inline-block; 
+        position: relative;      
+    }
+    .caixa-teste ul{
+        margin-left: 10px;
+    }
+    .bannerimg{
+        width: 100%;
+    }
+    .produtos li{
+        width: 100%;
+    }
+    .produtos{
+        padding: 50px 50px;
+        padding-left: 50px;
+    }
+    .banner{
+        width: auto;
+    }  
+ 
+}
+

@@ -1,0 +1,75 @@
+body{
+  background: #CCCC;
+  padding: 0 15px;  
+}
+
+h1{
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo{
+padding: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.caixa{
+  position:relative;
+  width: 940px;
+  margin: 0 auto;
+}
+nav{
+  margin-left: 230px;
+  padding: 50px 0;
+  position: absolute;
+
+}
+nav li {
+  
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a{
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+.beneficio{
+  margin: left;
+}
+.caixa {
+  padding-left: 80px;
+  padding-top: 50px;
+}
+
+.ifood p{
+  padding: 100px;
+  text-align: center;
+}
+.ifood a{
+  position: relative;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #000000;
+}
+footer{
+    margin: 40px 0;
+    text-align: center;
+}
+footer img{
+    text-align: center;
+      width: 100px;
+}
+.copyright{
+    text-align: center;
+    font-size: 10px;
+}
+
+
